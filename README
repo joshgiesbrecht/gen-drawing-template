@@ -1,0 +1,40 @@
+Drawing Template App for Processing Android
+Copyright (c) 2013 Josh Giesbrecht
+
+
+This is code for Android mode in Processing, and creates a standalone
+drawing app with basic save, undo, clear, and pen control functionality.
+
+To get started if you haven't used Processing Android yet, follow the
+instructions here:
+
+http://wiki.processing.org/w/Android
+
+The template is based on a simple technique of drawing to image buffers;
+undo is based on taking image snapshots, not by tracking pen movement.
+Drawing is done by moving 'Agent' objects which aim towards the current
+'mouse' (ie. touch) position.  Customize the Agent class to make the agents
+move (and draw) in more interesting ways.  I've also tried to leave comments
+in helpful places, but if you're stumped on how to change something you can
+ask via email.
+
+I've stripped down the code that defines the Agent's movement to something
+more basic than my Swarmpaint app, but left in a lot of hard work getting
+Undo, Save, pause and restore, and auto-scaling controls to function.
+
+My hope is that this template empowers more people to create unique
+digital drawing tools that express their own intent and style (without all
+of the pain of trying to get nice things like Undo and pause/restore
+working!)
+
+If you like this template, you can show your appreciation by picking up
+my own generative drawing app, Swarmpaint, in the Play Store:
+
+https://play.google.com/store/apps/details?id=processing.test.Swarmpaint
+
+Enjoy!
+
+josh giesbrecht
+thoughtlost studios
+josh@thoughtlost.org
+http://thoughtlost.com
